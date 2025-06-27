@@ -81,4 +81,5 @@ function classificaSenha(){
     forcaSenha.classList.add('forte');
 
 }
+}
 
