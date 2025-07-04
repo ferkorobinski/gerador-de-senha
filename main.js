@@ -75,9 +75,9 @@ function classificaSenha(tamanhoAlfabeto){
     }
       else if (tamanhoSenha > 5 && tamanhoSenha < 12 ){
           forcaSenha.classList.add('media');
-      else if (tamanhoSenha >= 5){
+      } else if (tamanhoSenha >= 5){
 
 
-    forcaSenha.classList.add('forte');
+    forcaSenha.classList.add('fraca');
 }
 }
