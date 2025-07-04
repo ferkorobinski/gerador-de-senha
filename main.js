@@ -71,7 +71,7 @@ function classificaSenha(tamanhoAlfabeto){
     console.log(entropia);
     forcaSenha.classList.remove('fraca','media','forte');
 
-    if (entropia > 11){
+    if (entropia > 11 ){
           forcaSenha.classList.add('forte');
     }
       else if (entropia > 5 && entropia < 12 ){
